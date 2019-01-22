@@ -1,0 +1,7 @@
+D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyCommon\bin\Debug\hyyCommon.dll
+D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyCommon\bin\Debug\hyyCommon.pdb
+D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyCommon\obj\Debug\hyyCommon.csprojResolveAssemblyReference.cache
+D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyCommon\obj\Debug\hyyCommon.dll
+D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyCommon\obj\Debug\hyyCommon.pdb
+D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyCommon\bin\Debug\hyyModel.dll
+D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyCommon\bin\Debug\hyyModel.pdb
