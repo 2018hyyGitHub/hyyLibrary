@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using hyyCommon;
+using System.IO;
+using System.IO.Compression;
+using hyyCommon.CompressionHelper;
 using hyyModel;
 
 namespace hyyLibrary
@@ -11,16 +14,38 @@ namespace hyyLibrary
     {
         static void Main(string[] args)
         {
-            Console.Write(string.Format("Welcome hyyLibrary!\n{0}",DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss")));
+            Console.Write(string.Format("Welcome hyyLibrary!\n{0}", DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss")));
 
 
+            /*  Linq
             var master = getMater();
             var kongfu = getKongfu();
-
-
             linqDemo demo = new linqDemo();
             Console.Write(demo.linqFunc1(master, kongfu));
             Console.Write(demo.linqFunc2(master, kongfu));
+             */
+
+            //DirectoryInfo directorySelected = new DirectoryInfo(CompressionHelper.directoryPath);
+            //CompressionHelper.Compress(directorySelected);
+            //foreach (FileInfo fileToDecompress in directorySelected.GetFiles("*.cmp"))
+            //{
+            //    CompressionHelper.Decompress(fileToDecompress);
+            //}
+
+
+
+            //using (FileStream zipToOpen = new FileStream(@"c:\users\exampleuser\release.zip", FileMode.Open))
+            //{
+            //    using (ZipArchive archive = new ZipArchive(zipToOpen, ZipArchiveMode.Update))
+            //    {
+            //        ZipArchiveEntry readmeEntry = archive.CreateEntry("Readme.txt");
+            //        using (StreamWriter writer = new StreamWriter(readmeEntry.Open()))
+            //        {
+            //            writer.WriteLine("Information about this package.");
+            //            writer.WriteLine("========================");
+            //        }
+            //    }
+            //}
 
 
 
@@ -47,7 +72,8 @@ namespace hyyLibrary
         /// <summary>
         /// 初始化武学
         /// </summary>
-        public static List<Kongfu> getKongfu() {
+        public static List<Kongfu> getKongfu()
+        {
             var kongfu = new List<Kongfu>(){
                 new Kongfu(){KongfuId=1,KongfuName="打狗棒法",Lethality=90},
                 new Kongfu(){KongfuId=2,KongfuName="降龙十八掌",Lethality=95},

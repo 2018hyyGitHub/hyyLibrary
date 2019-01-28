@@ -7,3 +7,4 @@ D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyLibrary\bin\Debug\hyyCommon.dll
 D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyLibrary\bin\Debug\hyyModel.dll
 D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyLibrary\bin\Debug\hyyCommon.pdb
 D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyLibrary\bin\Debug\hyyModel.pdb
+D:\MyFiles\myGitHub\hyyLibrary\hyyLibrary\hyyLibrary\bin\Debug\hyyLibrary.exe.config
